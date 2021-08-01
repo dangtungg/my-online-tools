@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Alabama",
+    "code": "AL",
+    "type": "States"
+  },
+  {
+    "name": "Alaska",
+    "code": "AK",
+    "type": "States"
+  },
+  {
+    "name": "Arizona",
+    "code": "AZ",
+    "type": "States"
+  },
+  {
+    "name": "Arkansas",
+    "code": "AR",
+    "type": "States"
+  },
+  {
+    "name": "California",
+    "code": "CA",
+    "type": "States"
+  },
+  {
+    "name": "Colorado",
+    "code": "CO",
+    "type": "States"
+  },
+  {
+    "name": "Connecticut",
+    "code": "CT",
+    "type": "States"
+  },
+  {
+    "name": "Delaware",
+    "code": "DE",
+    "type": "States"
+  },
+  {
+    "name": "Florida",
+    "code": "FL",
+    "type": "States"
+  },
+  {
+    "name": "Georgia",
+    "code": "GA",
+    "type": "States"
+  },
+  {
+    "name": "Hawaii",
+    "code": "HI",
+    "type": "States"
+  },
+  {
+    "name": "Idaho",
+    "code": "ID",
+    "type": "States"
+  },
+  {
+    "name": "Illinois",
+    "code": "IL",
+    "type": "States"
+  },
+  {
+    "name": "Indiana",
+    "code": "IN",
+    "type": "States"
+  },
+  {
+    "name": "Iowa",
+    "code": "IA",
+    "type": "States"
+  },
+  {
+    "name": "Kansas",
+    "code": "KS",
+    "type": "States"
+  },
+  {
+    "name": "Kentucky",
+    "code": "KY",
+    "type": "States"
+  },
+  {
+    "name": "Louisiana",
+    "code": "LA",
+    "type": "States"
+  },
+  {
+    "name": "Maine",
+    "code": "ME",
+    "type": "States"
+  },
+  {
+    "name": "Maryland",
+    "code": "MD",
+    "type": "States"
+  },
+  {
+    "name": "Massachusetts",
+    "code": "MA",
+    "type": "States"
+  },
+  {
+    "name": "Michigan",
+    "code": "MI",
+    "type": "States"
+  },
+  {
+    "name": "Minnesota",
+    "code": "MN",
+    "type": "States"
+  },
+  {
+    "name": "Mississippi",
+    "code": "MS",
+    "type": "States"
+  },
+  {
+    "name": "Missouri",
+    "code": "MO",
+    "type": "States"
+  },
+  {
+    "name": "Montana",
+    "code": "MT",
+    "type": "States"
+  },
+  {
+    "name": "Nebraska",
+    "code": "NE",
+    "type": "States"
+  },
+  {
+    "name": "Nevada",
+    "code": "NV",
+    "type": "States"
+  },
+  {
+    "name": "New Hampshire",
+    "code": "NH",
+    "type": "States"
+  },
+  {
+    "name": "New Jersey",
+    "code": "NJ",
+    "type": "States"
+  },
+  {
+    "name": "New Mexico",
+    "code": "NM",
+    "type": "States"
+  },
+  {
+    "name": "New York",
+    "code": "NY",
+    "type": "States"
+  },
+  {
+    "name": "North Carolina",
+    "code": "NC",
+    "type": "States"
+  },
+  {
+    "name": "North Dakota",
+    "code": "ND",
+    "type": "States"
+  },
+  {
+    "name": "Ohio",
+    "code": "OH",
+    "type": "States"
+  },
+  {
+    "name": "Oklahoma",
+    "code": "OK",
+    "type": "States"
+  },
+  {
+    "name": "Oregon",
+    "code": "OR",
+    "type": "States"
+  },
+  {
+    "name": "Pennsylvania",
+    "code": "PA",
+    "type": "States"
+  },
+  {
+    "name": "Rhode Island",
+    "code": "RI",
+    "type": "States"
+  },
+  {
+    "name": "South Carolina",
+    "code": "SC",
+    "type": "States"
+  },
+  {
+    "name": "South Dakota",
+    "code": "SD",
+    "type": "States"
+  },
+  {
+    "name": "Tennessee",
+    "code": "TN",
+    "type": "States"
+  },
+  {
+    "name": "Texas",
+    "code": "TX",
+    "type": "States"
+  },
+  {
+    "name": "Utah",
+    "code": "UT",
+    "type": "States"
+  },
+  {
+    "name": "Vermont",
+    "code": "VT",
+    "type": "States"
+  },
+  {
+    "name": "Virginia",
+    "code": "VA",
+    "type": "States"
+  },
+  {
+    "name": "Washington",
+    "code": "WA",
+    "type": "States"
+  },
+  {
+    "name": "West Virginia",
+    "code": "WV",
+    "type": "States"
+  },
+  {
+    "name": "Wisconsin",
+    "code": "WI",
+    "type": "States"
+  },
+  {
+    "name": "Wyoming",
+    "code": "WY",
+    "type": "States"
+  },
+  {
+    "name": "District of Columbia",
+    "code": "DC",
+    "type": "Federal district"
+  },
+  {
+    "name": "American Samoa",
+    "code": "AS",
+    "type": "Inhabited territories"
+  },
+  {
+    "name": "Guam",
+    "code": "GU",
+    "type": "Inhabited territories"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "code": "MP",
+    "type": "Inhabited territories"
+  },
+  {
+    "name": "Puerto Rico",
+    "code": "PR",
+    "type": "Inhabited territories"
+  },
+  {
+    "name": "U.S. Virgin Islands",
+    "code": "VI",
+    "type": "Inhabited territories"
+  }
+]

@@ -1,0 +1,13 @@
+<h1 class="mt-4">Merch By Amazon Letter Examples</h1>
+
+<div class="template-wrapper">
+  <div class="row mb-5" *ngFor="let l of mbaLetters | async; let i = index">
+    <p>Template {{i + 1}}</p>
+    <div class="col-6">
+      <textarea class="form-control" rows="5" disabled [value]="l.enTxt"></textarea>
+    </div>
+    <div class="col-6">
+      <textarea class="form-control" rows="5" disabled>{{l.viTxt}}</textarea>
+    </div>
+  </div>
+</div>

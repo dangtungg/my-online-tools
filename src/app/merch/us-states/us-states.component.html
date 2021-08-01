@@ -1,0 +1,42 @@
+<h1 class="mt-4">US States</h1>
+
+<form (ngSubmit)="onSubmit()" #usStateSearchForm="ngForm" class="mt-5">
+  <div class="row justify-content-md-center">
+    <div class="col-6">
+      <input type="text" id="postalAbbreviation" name="postalAbbreviation" #postalAbbreviation="ngModel"
+        [(ngModel)]="postalCode" required [maxlength]="50" class="form-control" placeholder="Mã bưu điện viết tắt (2 chữ in hoa)"
+        aria-label="Postal Abbreviation">
+      <small class="form-text text-danger"
+        *ngIf="postalAbbreviation.invalid && (postalAbbreviation.dirty || postalAbbreviation.touched)">
+        Vui lòng nhập mã bưu điện
+      </small>
+    </div>
+  </div>
+  <div class="row justify-content-md-center mt-3">
+    <div class="col-2">
+      <button type="button" class="btn btn-default" (click)="reset(); usStateSearchForm.reset()">Nhập lại</button>
+      <button type="submit" class="btn btn-success" [disabled]="!usStateSearchForm.form.valid">Tìm kiếm</button>
+    </div>
+  </div>
+</form>
+
+<div class="table-responsive mt-5">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Postal Abbreviation</th>
+        <th scope="col">Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of searchStates; let i = index">
+        <th scope="row">{{i + 1}}</th>
+        <td>{{s.name}}</td>
+        <td>{{s.code}}</td>
+        <td>{{s.type}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
